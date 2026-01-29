@@ -3,13 +3,18 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import type { Advert } from '@/lib/types'
+import { useCurrency } from '@/app/providers'
+import { convertPrice } from '@/lib/utils'
+import { CURRENCY_SYMBOLS } from '@/lib/constants'
 
 export function AdvertCard({ advert }: { advert: Advert }) {
-console.log('advert.image',advert.image)
+  const { currency } = useCurrency()
+  const price = convertPrice(advert.price, currency)
+
   return (
     <Link
       href={`/${advert.id}`}
-      className="rounded-xl border p-4 hover:shadow-lg transition"
+      className="rounded-xl border p-4 hover:shadow-lg transition bg-white shadow-2xl"
     >
       <div className='preview-wrapper'>
         <Image alt={advert.title} src={advert.image} width={326} height={209} />
@@ -22,7 +27,7 @@ console.log('advert.image',advert.image)
         </span>
 
         <span className="text-lg font-bold">
-          {advert.price.toLocaleString()} ฿
+          {price.toLocaleString()} {CURRENCY_SYMBOLS[currency]}
         </span>
       </div>
 

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Студия у моря в Патонге",
+    "area": 32,
+    "price": 3200000,
+    "location": "Патонг",
+    "image": "/images/adverts/stub.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Апартаменты с одной спальней в Ката",
+    "area": 45,
+    "price": 5200000,
+    "location": "Ката",
+    "image": "/images/adverts/stub.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Современные апартаменты в Кароне",
+    "area": 58,
+    "price": 6800000,
+    "location": "Карон",
+    "image": "/images/adverts/stub.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Апартаменты с видом на море в Камале",
+    "area": 62,
+    "price": 8200000,
+    "location": "Камала",
+    "image": "/images/adverts/stub.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Двухспальные апартаменты в Банг Тао",
+    "area": 85,
+    "price": 11500000,
+    "location": "Банг Тао",
+    "image": "/images/adverts/stub.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Пентхаус рядом с пляжем Сурин",
+    "area": 110,
+    "price": 18500000,
+    "location": "Сурин",
+    "image": "/images/adverts/stub.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Вилла с бассейном в Раваи",
+    "area": 140,
+    "price": 24500000,
+    "location": "Раваи",
+    "image": "/images/adverts/stub.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Современная вилла в Чалонге",
+    "area": 160,
+    "price": 26800000,
+    "location": "Чалонг",
+    "image": "/images/adverts/stub.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Роскошная вилла с видом на океан",
+    "area": 220,
+    "price": 42000000,
+    "location": "Мыс Панва",
+    "image": "/images/adverts/stub.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Эксклюзивная вилла премиум-класса",
+    "area": 300,
+    "price": 68000000,
+    "location": "Лагуна",
+    "image": "/images/adverts/stub.jpg"
+  }
+]

@@ -1,3 +1,10 @@
+import { CURRENCIES } from "./constants";
+
+/**
+ * Currency type definition
+ */
+export type Currency = (typeof CURRENCIES)[number];
+
 /**
  * Advert type definition
  */
